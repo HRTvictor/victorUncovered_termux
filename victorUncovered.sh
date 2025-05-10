@@ -3,14 +3,7 @@
 
 figlet welcome
 
-echo "ARE YOU IN ROOT ACCESS???"
 
-if (("$EUID" !=  0 )); then
-echo "SORRY RETRY...."
-
-exit 1
-
-fi
 
 echo "PRESS ANY KEY TO START .."
 
